@@ -64,19 +64,20 @@
    <!--  this part of the menu is dynamic - 3 different options: apply, subscribe and navigation -->
     <div ng-show="menuView == 1" id=menuView1>
 	    <li><a class="subheader">Navigation</a></li>
-	    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+	    
     </div>
     <div ng-show="menuView == 2" id=menuView2>
-	    <li><a class="subheader">form 1</a></li>
-	    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+	    <li><a class="subheader">Subscribe</a></li>
+	   
     </div>
     <div ng-show="menuView == 3" id=menuView3>
-	    <li><a class="subheader">form 2</a></li>
-	    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+	    <li><a class="subheader">Aply</a></li>
+	   
     </div>
   </ul>
   <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
+  	<p ng-click="showSubscribe()">subscribe</p><p ng-click="showApply()">apply</p>
 
 	<!-- ANGULAR DYNAMIC CONTENT -->
 	<div ng-view></div>
