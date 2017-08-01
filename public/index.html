@@ -61,19 +61,28 @@
     <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
     <li><a href="#!">Second Link</a></li>
     <li><div class="divider"></div></li>
-   <!--  this part of the menu is dynamic - 3 different options: apply, subscribe and navigation -->
+ <!--  this part of the menu is dynamic - 3 different options: apply, subscribe and navigation -->
+
+ 	<!-- NAVIGATION -->
     <div ng-show="menuView == 1" id=menuView1>
 	    <li><a class="subheader">Navigation</a></li>
+	    <li><a href="/">Home</a></li>
 	    <li ng-click="showSubscribe()"><a  class="subheader">Subscribe</a></li>
 	    <li ng-click="showApply()"><a  class="subheader">Apply</a></li>
+	    <li><a href="/faq">FAQ</a></li>
+	    <li><a href="/applied">Already applied</a></li>
+	    <li><a href="">Tech stories</a></li>
+
 	    
     </div>
+   <!--  form1 -->
     <div ng-show="menuView == 2" id=menuView2>
     	<li ng-click="showBacktoNav()"><a  class="subheader">Back to navigation</a></li>
 	    <li><a class="subheader">Subscribe</a></li>
 	    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWfWLGOXGIQTwEXwKIO1zObHG9rhpzZtor1GDPqFJ1AAGjeg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 	   
     </div>
+    <!--  form2 -->
     <div ng-show="menuView == 3" id=menuView3>
     	<li ng-click="showBacktoNav()"><a  class="subheader">Back to navigation</a></li>
 	    <li><a class="subheader">Aply</a></li>
@@ -82,6 +91,8 @@
     </div>
   </ul>
   <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+
 
 <!-- footer -->
 <footer>

@@ -3,7 +3,7 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
 	$scope.tagline = 'To the moon and back!';	
 
 
-
+	// MENU
 	//View selection for the side menu
 	$scope.menuView = 1;
 	console.log($scope.menuView);
@@ -22,6 +22,24 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
 		console.log($scope.menuView);
 	}
 
+
+	//menu links
+	// $scope.goHome = function(){
+	//  $location.path('/');
+
+	// }
+
+	// $scope.goFaq = function(){
+	//  $location.path('/faq');
+
+	// }
+
+	// $scope.goApplied = function(){
+	//  $location.path('/applied');
+
+	// }
+
+	//end of menu stuff
 
 
 });
