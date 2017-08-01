@@ -16,6 +16,10 @@ angular.module('appRoutes', ['typer']).config(['$routeProvider', '$locationProvi
 		.when('/applied', {
 			templateUrl: 'views/applied.html',
 			controller: 'AppliedController'	
+		})
+
+		.when('/footer', {
+			templateUrl: 'views/footer.html',
 		});
 
 	$locationProvider.html5Mode(true);

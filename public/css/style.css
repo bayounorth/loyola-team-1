@@ -7,6 +7,10 @@ body {
     background-color: #fff;
 }
 
+.fullwidth {
+  width: 100%;
+}
+
 /*This is sass*/
 @media screen and (max-width: 1200px)
 footer {
@@ -37,3 +41,145 @@ article, aside, footer, header, hgroup, main, nav, section {
     display: block;
 }
 
+/* line 2734, ../scss/_custom-barebones.scss */
+footer {
+  background-color: #620003;
+  color: #fff;
+  width: 100%;
+  padding: 54px 0;
+  float: left;
+}
+@media screen and (max-width: 1200px) {
+  /* line 2734, ../scss/_custom-barebones.scss */
+  footer {
+    padding: 27px 0;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1200px) {
+  /* line 2743, ../scss/_custom-barebones.scss */
+  footer img {
+    max-width: 35%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* line 2743, ../scss/_custom-barebones.scss */
+  footer img {
+    display: block;
+    text-align: left;
+  }
+}
+/* line 2754, ../scss/_custom-barebones.scss */
+footer .footer-copy {
+  color: #fff;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: 'Proxima N W01 Light';
+  font-size: 14px;
+  text-align: left;
+  margin: 0;
+}
+@media screen and (min-width: 1200px) {
+  /* line 2754, ../scss/_custom-barebones.scss */
+  footer .footer-copy {
+    font-size: 1em;
+    padding: 0;
+    text-align: left;
+  }
+}
+/* line 2767, ../scss/_custom-barebones.scss */
+footer .footer-copy p {
+  margin-bottom: 0;
+}
+
+/* line 2773, ../scss/_custom-barebones.scss */
+footer .container-fluid {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  /* line 2773, ../scss/_custom-barebones.scss */
+  footer .container-fluid {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 2781, ../scss/_custom-barebones.scss */
+  .footerLogos {
+    padding: 0;
+  }
+}
+
+/* line 2788, ../scss/_custom-barebones.scss */
+footer a {
+  color: #fff;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+/* line 2793, ../scss/_custom-barebones.scss */
+footer a:hover {
+  color: #fad800;
+}
+/* line 2797, ../scss/_custom-barebones.scss */
+footer a.emergency_info {
+  color: #fad800;
+}
+
+/* line 2802, ../scss/_custom-barebones.scss */
+footer a img {
+  text-decoration: none;
+  border: none;
+  max-width: 200px;
+  display: block;
+}
+@media screen and (min-width: 960px) {
+  /* line 2802, ../scss/_custom-barebones.scss */
+  footer a img {
+    max-width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* line 2812, ../scss/_custom-barebones.scss */
+footer a img:hover {
+  text-decoration: none;
+}
+/* line 2815, ../scss/_custom-barebones.scss */
+footer a img.loynoLogo {
+  max-width: 175px;
+  margin: 0;
+}
+
+/* line 2821, ../scss/_custom-barebones.scss */
+.bottomFooter {
+  justify-content: flex-start;
+  margin-top: 25px;
+  text-align: left;
+}
+@media screen and (min-width: 1024px) {
+  /* line 2821, ../scss/_custom-barebones.scss */
+  .bottomFooter {
+    margin-top: 50px;
+  }
+}
+/* line 2828, ../scss/_custom-barebones.scss */
+.bottomFooter ul {
+  list-style: none;
+  padding: 0;
+}
+/* line 2832, ../scss/_custom-barebones.scss */
+.bottomFooter li {
+  margin: 0;
+}
+/* line 2835, ../scss/_custom-barebones.scss */
+.bottomFooter ul li a {
+  font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  /* line 2840, ../scss/_custom-barebones.scss */
+  .bottomFooter div:nth-child(n+2) h5 {
+    margin-top: 15px;
+  }
+}
