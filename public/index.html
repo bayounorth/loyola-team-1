@@ -23,6 +23,8 @@
 	<script src="libs/angular-route/angular-route.min.js"></script>
 	<!-- Materialize JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+	<!-- Typer -->
+	<script src="libs/angular-typer/dist/typer.min.js"></script>
 
 	<!-- ANGULAR CUSTOM -->
 	<script src="js/controllers/MainCtrl.js"></script>
@@ -32,6 +34,7 @@
 	<script src="js/services/AppliedService.js"></script>
 	<script src="js/appRoutes.js"></script>
 	<script src="js/app.js"></script>
+	 <script src="libs/angular-typer/src/typer.js"></script>
 </head>
 <body ng-app="sampleApp" ng-controller="MainController">
 <div class="container">
@@ -46,6 +49,10 @@
 			<li><a href="/applied">Applied</a></li>
 		</ul>
 	</nav>
+
+	<!--TYPER -->
+	<h1 class="main-title"><typer words="['Code Your Future', 'Loyola', 'Feed Chris']" type-time='150' backspace-time='200' start-delay='1500' highlight-background='#2980b9'></typer></h1>
+	<!--END TYPER-->
 
 
   <ul id="slide-out" class="side-nav">
