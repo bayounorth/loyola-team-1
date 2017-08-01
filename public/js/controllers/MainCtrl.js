@@ -17,6 +17,11 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
 		$scope.menuView = 3;
 		console.log($scope.menuView);
 	}
+	$scope.showBacktoNav = function(){
+		$scope.menuView = 1;
+		console.log($scope.menuView);
+	}
+
 
 
 });
