@@ -16,7 +16,13 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 		.when('/applied', {
 			templateUrl: 'views/applied.html',
 			controller: 'AppliedController'	
+		})
+		
+		.when('/twitter', {
+			templateUrl: 'views/twitter.html',
+			controller: 'twitterCtrl'
 		});
+		
 
 	$locationProvider.html5Mode(true);
 
