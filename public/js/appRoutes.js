@@ -18,9 +18,17 @@ angular.module('appRoutes', ['typer']).config(['$routeProvider', '$locationProvi
 			controller: 'AppliedController'	
 		})
 
+
 		.when('/footer', {
 			templateUrl: 'views/footer.html',
+		})
+		
+		.when('/twitter', {
+			templateUrl: 'views/twitter.html',
+			controller: 'twitterCtrl'
+
 		});
+		
 
 	$locationProvider.html5Mode(true);
 
