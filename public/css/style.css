@@ -9,7 +9,8 @@ body {
 .container{
 	width: 100%;
 	padding: 0px;
-	height: 600px;
+	height: 100vh;
+	background-image: src="desktop/KEN_4269.jpg"
 }
 
 
