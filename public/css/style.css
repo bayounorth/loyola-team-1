@@ -14,6 +14,13 @@ body {
 	height: 600px;
 }
 
+.main-title{
+	text-align: center;
+}
+
+#cta{
+	text-align: center;
+}
 
 .fullwidth {
 	width: 100%;
