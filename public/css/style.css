@@ -3,193 +3,320 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.5;
 	font-size: 1rem;
-    color: #373a3c;
-    background-color: #fff;
+		color: #373a3c;
+		background-color: #fff;
 }
 
 .fullwidth {
-  width: 100%;
+	width: 100%;
 }
 
 /*This is sass*/
 @media screen and (max-width: 1200px)
 footer {
-    padding: 27px 0;
+		padding: 27px 0;
 }
 
 footer {
-    background-color: #620003;
-    color: #fff;
-    width: 100%;
-    padding: 54px 0;
-    float: left;
+		background-color: #620003;
+		color: #fff;
+		width: 100%;
+		padding: 54px 0;
+		float: left;
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
-    display: block;
+		display: block;
 }
 
 * {
-    box-sizing: border-box;
+		box-sizing: border-box;
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
+		box-sizing: inherit;
 }
 
 article, aside, footer, header, hgroup, main, nav, section {
-    display: block;
+		display: block;
 }
 
 /* line 2734, ../scss/_custom-barebones.scss */
 footer {
-  background-color: #620003;
-  color: #fff;
-  width: 100%;
-  padding: 54px 0;
-  float: left;
+	background-color: #620003;
+	color: #fff;
+	width: 100%;
+	padding: 54px 0;
+	float: left;
 }
 @media screen and (max-width: 1200px) {
-  /* line 2734, ../scss/_custom-barebones.scss */
-  footer {
-    padding: 27px 0;
-  }
+	/* line 2734, ../scss/_custom-barebones.scss */
+	footer {
+		padding: 27px 0;
+	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1200px) {
-  /* line 2743, ../scss/_custom-barebones.scss */
-  footer img {
-    max-width: 35%;
-    margin: 0 auto;
-  }
+	/* line 2743, ../scss/_custom-barebones.scss */
+	footer img {
+		max-width: 35%;
+		margin: 0 auto;
+	}
 }
 @media screen and (max-width: 1200px) {
-  /* line 2743, ../scss/_custom-barebones.scss */
-  footer img {
-    display: block;
-    text-align: left;
-  }
+	/* line 2743, ../scss/_custom-barebones.scss */
+	footer img {
+		display: block;
+		text-align: left;
+	}
 }
 /* line 2754, ../scss/_custom-barebones.scss */
 footer .footer-copy {
-  color: #fff;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  font-family: 'Proxima N W01 Light';
-  font-size: 14px;
-  text-align: left;
-  margin: 0;
+	color: #fff;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-family: 'Proxima N W01 Light';
+	font-size: 14px;
+	text-align: left;
+	margin: 0;
 }
 @media screen and (min-width: 1200px) {
-  /* line 2754, ../scss/_custom-barebones.scss */
-  footer .footer-copy {
-    font-size: 1em;
-    padding: 0;
-    text-align: left;
-  }
+	/* line 2754, ../scss/_custom-barebones.scss */
+	footer .footer-copy {
+		font-size: 1em;
+		padding: 0;
+		text-align: left;
+	}
 }
 /* line 2767, ../scss/_custom-barebones.scss */
 footer .footer-copy p {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 /* line 2773, ../scss/_custom-barebones.scss */
 footer .container-fluid {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 @media screen and (min-width: 768px) {
-  /* line 2773, ../scss/_custom-barebones.scss */
-  footer .container-fluid {
-    flex-direction: row;
-  }
+	/* line 2773, ../scss/_custom-barebones.scss */
+	footer .container-fluid {
+		flex-direction: row;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 2781, ../scss/_custom-barebones.scss */
-  .footerLogos {
-    padding: 0;
-  }
+	/* line 2781, ../scss/_custom-barebones.scss */
+	.footerLogos {
+		padding: 0;
+	}
 }
 
 /* line 2788, ../scss/_custom-barebones.scss */
 footer a {
-  color: #fff;
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 600;
+	color: #fff;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 600;
 }
 /* line 2793, ../scss/_custom-barebones.scss */
 footer a:hover {
-  color: #fad800;
+	color: #fad800;
 }
 /* line 2797, ../scss/_custom-barebones.scss */
 footer a.emergency_info {
-  color: #fad800;
+	color: #fad800;
 }
 
 /* line 2802, ../scss/_custom-barebones.scss */
 footer a img {
-  text-decoration: none;
-  border: none;
-  max-width: 200px;
-  display: block;
+	text-decoration: none;
+	border: none;
+	max-width: 200px;
+	display: block;
 }
 @media screen and (min-width: 960px) {
-  /* line 2802, ../scss/_custom-barebones.scss */
-  footer a img {
-    max-width: 225px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	/* line 2802, ../scss/_custom-barebones.scss */
+	footer a img {
+		max-width: 225px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 /* line 2812, ../scss/_custom-barebones.scss */
 footer a img:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 /* line 2815, ../scss/_custom-barebones.scss */
 footer a img.loynoLogo {
-  max-width: 175px;
-  margin: 0;
+	max-width: 175px;
+	margin: 0;
 }
 
 /* line 2821, ../scss/_custom-barebones.scss */
 .bottomFooter {
-  justify-content: flex-start;
-  margin-top: 25px;
-  text-align: left;
+	justify-content: flex-start;
+	margin-top: 25px;
+	text-align: left;
 }
 @media screen and (min-width: 1024px) {
-  /* line 2821, ../scss/_custom-barebones.scss */
-  .bottomFooter {
-    margin-top: 50px;
-  }
+	/* line 2821, ../scss/_custom-barebones.scss */
+	.bottomFooter {
+		margin-top: 50px;
+	}
 }
 /* line 2828, ../scss/_custom-barebones.scss */
 .bottomFooter ul {
-  list-style: none;
-  padding: 0;
+	list-style: none;
+	padding: 0;
 }
 /* line 2832, ../scss/_custom-barebones.scss */
 .bottomFooter li {
-  margin: 0;
+	margin: 0;
 }
 /* line 2835, ../scss/_custom-barebones.scss */
 .bottomFooter ul li a {
-  font-size: 14px;
+	font-size: 14px;
 }
 @media screen and (max-width: 768px) {
-  /* line 2840, ../scss/_custom-barebones.scss */
-  .bottomFooter div:nth-child(n+2) h5 {
-    margin-top: 15px;
-  }
+	/* line 2840, ../scss/_custom-barebones.scss */
+	.bottomFooter div:nth-child(n+2) h5 {
+		margin-top: 15px;
+	}
 }
 
+
+/* SMALL BUSINESS FOOTER */
+
+#social-links {
+		display: flex;
+		justify-content: space-between;
+		direction: ltr;
+}
+
+
+
+#footer{
+	background-color:#660000;
+	color:#FFFFFF;
+	padding:30px 0;
+	margin-top:-2px;
+}
+
+#footer p{
+	font-family:"Proxima N W01 Light";
+	font-size:13px;
+	line-height:18px;
+	color:#FFFFFF;
+}
+
+@media screen and (min-width:768px){
+		#footer p{font-size:16px;line-height:24px;}
+		}
+
+#footer .icon-logo-2{
+	width:109px;
+	height:76px;
+	margin-bottom:5px;
+}
+
+@media screen and (min-width:992px){
+		#footer .icon-logo-2{width:179px;height:83px;max-width:100%;}
+		}
+
+#footer .footer-links{
+	margin-top:10px;
+}
+
+#footer a,
+#footer a:visited{
+	color:#FFFFFF;
+	font-weight:bold;
+	padding-right:10px;
+}
+
+#footer .icon-aacsb{
+	width:115px;
+	height:150px;
+	margin-bottom:20px;
+	margin-top:27px;
+}
+
+@media (min-width:768px){
+	#footer .icon-aacsb{float:right;margin-right:-15px;}
+	}
+#footer #social-links{
+	width:165px;
+}
+
+#footer #social-links .social-icon{
+	width:37px;
+	height:37px;
+}
+
+#footer #social-links-wrapper{
+	margin-top:30px;
+}
+
+@media screen and (min-width:768px){
+	#footer #social-links-wrapper{margin-top:0;}
+}
+
+#footer .social-links-text{
+	text-transform:lowercase;
+	color:#ffd700;
+	font-size:1.47em;
+	width:165px;
+	text-align:center;
+	margin-top:35px;
+}
+#footer .social-links-text a{
+	width:165px;
+	display:inline-block;
+	padding-right:0;
+}
+
+#footer .facebook{
+	background-image:url(/img/facebook.png);
+}
+
+#footer .twitter	{
+	background-image:url(/img/twitter.png);
+}
+
+#footer .flickr	{
+	background-image:url(/img/flickr.png);}
+
+#footer .instagram	{
+	background-image:url(/img/instagram.png);
+}
+
+@media (min-width:768px){
+		#footer .footer-contact-info{margin-left:132px;}
+}
+
+@media screen and (min-width:768px) and (min-width:992px){
+		#footer .footer-contact-info{margin-left:239px;}
+}
+
+@media (min-width:768px){
+		#footer .icon-logo-2{float:left;margin-top:15px;margin-right:10px;}
+		#footer .icon-aacsb{margin-top:-13px;}
+		#footer .social-links-text{color:#FFFFFF;margin-top:40px;}
+		#footer .facebook{background-image:url(/img/facebook.png);}
+		#footer .twitter{background-image:url(/img/twitter.png);}
+		#footer .flickr{background-image:url(/img/flickr.png);}
+		#footer .instagram{background-image:url(/img/instagram.png);}
+}
+
+
+/* SIDE NAV */
+
 .side-nav{
-  width:570px;
+	width:570px;
 }
 
 .applied-textblock{
-  margin-top: 50px
+	margin-top: 50px
 }
 
 
