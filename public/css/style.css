@@ -1,5 +1,4 @@
 body { 
-	padding-top:30px; 
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.5;
 	font-size: 1rem;
@@ -187,13 +186,16 @@ footer a img.loynoLogo {
 
 /* SMALL BUSINESS FOOTER */
 
+
+.front #footer {
+    margin-top: -2px;
+}
+
 #social-links {
 		display: flex;
 		justify-content: space-between;
 		direction: ltr;
 }
-
-
 
 #footer{
 	background-color:#660000;
@@ -209,9 +211,27 @@ footer a img.loynoLogo {
 	color:#FFFFFF;
 }
 
+p {
+    margin: 0 0 10px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 @media screen and (min-width:768px){
-		#footer p{font-size:16px;line-height:24px;}
-		}
+	#footer p{
+		font-size:16px;
+		line-height:24px;}
+}
+
+#footer .footer-links {
+    margin-top: 10px;
+}
 
 #footer .icon-logo-2{
 	width:109px;
@@ -220,7 +240,10 @@ footer a img.loynoLogo {
 }
 
 @media screen and (min-width:992px){
-		#footer .icon-logo-2{width:179px;height:83px;max-width:100%;}
+		#footer .icon-logo-2{
+			width:179px;
+			height:83px;
+			max-width:100%;}
 		}
 
 #footer .footer-links{
@@ -258,7 +281,8 @@ footer a img.loynoLogo {
 }
 
 @media screen and (min-width:768px){
-	#footer #social-links-wrapper{margin-top:0;}
+	#footer #social-links-wrapper{
+		margin-top:0;}
 }
 
 #footer .social-links-text{
@@ -291,21 +315,103 @@ footer a img.loynoLogo {
 }
 
 @media (min-width:768px){
-		#footer .footer-contact-info{margin-left:132px;}
+	#footer .footer-contact-info{
+		margin-left:132px;}
 }
 
 @media screen and (min-width:768px) and (min-width:992px){
-		#footer .footer-contact-info{margin-left:239px;}
+	#footer .footer-contact-info{margin-left:239px;}
 }
 
 @media (min-width:768px){
-		#footer .icon-logo-2{float:left;margin-top:15px;margin-right:10px;}
-		#footer .icon-aacsb{margin-top:-13px;}
-		#footer .social-links-text{color:#FFFFFF;margin-top:40px;}
-		#footer .facebook{background-image:url(/img/facebook.png);}
-		#footer .twitter{background-image:url(/img/twitter.png);}
-		#footer .flickr{background-image:url(/img/flickr.png);}
-		#footer .instagram{background-image:url(/img/instagram.png);}
+	#footer .icon-logo-2{float:left;margin-top:15px;margin-right:10px;}
+	#footer .icon-aacsb{margin-top:-13px;}
+	#footer .social-links-text{color:#FFFFFF;margin-top:40px;}
+	#footer .facebook{background-image:url(/img/facebook.png);}
+	#footer .twitter{background-image:url(/img/twitter.png);}
+	#footer .flickr{background-image:url(/img/flickr.png);}
+	#footer .instagram{background-image:url(/img/instagram.png);}
+}
+
+.icon-logo-2 {
+	max-width: 144px;
+	background-image: url(/img/logos/loyola_logo_2.png);
+	background-size: 100%;
+}
+
+@media (min-width: 768px){
+#footer .icon-logo-2 {
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;}
+}
+
+@media screen and (min-width: 992px){
+#footer .icon-logo-2 {
+    width: 179px;
+    height: 83px;
+    max-width: 100%;}
+}
+
+#footer .icon-logo-2 {
+    width: 109px;
+    height: 76px;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 992px){
+.icon-logo-2 {
+    max-width: 200px;}
+}
+
+.icon {
+    background-size: cover;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) and (min-width: 992px){
+	#footer .footer-contact-info {
+    margin-left: 239px;}
+}
+
+@media (min-width: 768px){
+	#footer .footer-contact-info {
+    margin-left: 132px;}
+}
+
+@media (min-width: 768px){
+	#footer .icon-aacsb {
+    margin-top: -13px;}
+}
+
+@media (min-width: 768px){
+	#footer .icon-aacsb {
+    float: right;
+    margin-right: -15px;}
+}
+#footer .icon-aacsb {
+  width: 115px;
+  height: 150px;
+  margin-bottom: 20px;
+  margin-top: 27px;
+}
+
+.icon-aacsb {
+    background-image: url(/img/logos/AACSB.png);
+    background-size: 100%;
+}
+
+
+/* TOP NAV */
+.top-nav {
+	width:100%;
 }
 
 
