@@ -8,6 +8,10 @@ body {
 		background-color: #fff;
 }
 
+.main-title{
+  text-align: center;
+}
+
 .fullwidth {
 	width: 100%;
 }
