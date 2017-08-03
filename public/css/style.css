@@ -34,6 +34,15 @@ body {
 	padding-left: 100px;
 }*/
 
+img{
+	height: auto;
+	width: 100%;
+}
+
+.static{
+	position: static;
+}
+
 .main-title{
 	text-align: center;
 	z-index: 1000;
