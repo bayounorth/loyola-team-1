@@ -1,1 +1,1 @@
-angular.module('sampleApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'FaqCtrl', 'FaqService', 'AppliedCtrl', 'AppliedService']);
+angular.module('sampleApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'FaqCtrl', 'FaqService', 'AppliedCtrl', 'AppliedService', 'ngParallax', 'parallaxCtrl']);

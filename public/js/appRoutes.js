@@ -28,6 +28,12 @@ angular.module('appRoutes', ['typer']).config(['$routeProvider', '$locationProvi
 			controller: 'twitterCtrl'
 
 		});
+
+		.when('/parallax', {
+			templateUrl: 'views/parallax.html',
+			controller: 'parallaxCtrl'
+
+		});
 		
 
 	$locationProvider.html5Mode(true);
