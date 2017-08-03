@@ -1,11 +1,14 @@
-<div class="container">
-  <div class="jumbotron">
+
+<div class="parallax-container">
+  <div class="parallax"> 
   <h1 class="main-title"><typer start-typing='true' words="['Loyno Soft. Dev', 'Code Your Future', 'Feed Chris']" type-time='150' backspace-time='200' start-delay='1000'></typer></h1>
-  
   <p id="cta"><a class="btn btn-primary btn-lg center-bl" href="#" role="button">Learn more</a></p>
+  <img ng-src = "{{image}}"/>
+  
+  
   </div>
 </div>
-	
+
 <!-- INFO SECTIONS -->	
 <section id="services">
         <div class="container">
@@ -65,3 +68,9 @@
 	<a class="twitter-timeline twitter" data-chrome="noheader" data-width="250" data-height="400" href="https://twitter.com/latenitecoder/lists/developers">A Twitter List by latenitecoder
 	</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
+
+<script type="text/javascript">
+ $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+ </script>

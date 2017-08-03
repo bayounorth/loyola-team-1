@@ -22,6 +22,8 @@ angular.module('MainCtrl', ['typer']).controller('MainController', function($sco
 		console.log($scope.menuView);
 	}
 
+	$scope.image = "/img/images/KEN_4269.jpg";
+	
 
 	//menu links
 	// $scope.goHome = function(){
