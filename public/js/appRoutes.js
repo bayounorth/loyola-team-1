@@ -1,4 +1,4 @@
-angular.module('appRoutes', ['typer']).config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
 	$routeProvider
 
@@ -25,13 +25,13 @@ angular.module('appRoutes', ['typer']).config(['$routeProvider', '$locationProvi
 		
 		.when('/twitter', {
 			templateUrl: 'views/twitter.html',
-			controller: 'twitterCtrl'
+			controller: 'twitterController'
 
-		});
+		})
 
 		.when('/parallax', {
 			templateUrl: 'views/parallax.html',
-			controller: 'parallaxCtrl'
+			controller: 'ParallaxController'
 
 		});
 		
