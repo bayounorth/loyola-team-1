@@ -11,6 +11,21 @@ body {
 	width: 100%;
 }
 
+.jumbotron{
+	background-image: url("/img/images/KEN_4269.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.main-heading{
+	font-size: 30px;
+}
+
+.info-heading{
+	font-size: 25px;
+}
+
 .main-title{
 	text-align: center;
 }
