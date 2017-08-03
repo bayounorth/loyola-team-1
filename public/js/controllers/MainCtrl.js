@@ -23,7 +23,18 @@ angular.module('MainCtrl', ['typer']).controller('MainController', function($sco
 	}
 
 	$scope.image = "/img/images/KEN_4269.jpg";
-	
+
+
+	//APPLICATION AVAILABLE
+
+	//Tesnting if show is working
+	$scope.applicationAllow = true;
+	// $scope.applicationAllow = false;
+
+
+
+
+
 
 	//menu links
 	// $scope.goHome = function(){
