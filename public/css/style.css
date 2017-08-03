@@ -7,19 +7,55 @@ body {
 }
 
 
+/* CONTAINERS + PARALLAX CONTAINERS */
+
 .container{
 	width: 100% !important;
 	margin-left: 0px;
 	margin-right: 0px;
+	max-width: none !important;
 }
 
+.container2{
+	background-color: #E5554F;
+	height: 200px;
+}
+
+.container2 p{
+	padding:50px;
+	font-size: 20px;
+}
+
+
+.container5 {
+	padding: 60px;
+}
+
+.container5 p{
+	font-size: 24px;
+	line-height: 40px;
+}
+
+.container6{
+	height: 300px;
+	background-color: #E5554F;
+}
+
+.container6 p{
+	font-size: 20px;
+}
 
 .p-container{
 	max-width: none;
 	padding-right: 0px !important;
 	padding-left: 0px !important;
+	width:50%;
 }
 
+
+
+
+/* HEADING */
 
 .main-heading{
 	font-size: 30px;
