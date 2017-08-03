@@ -155,10 +155,15 @@
     	<div class="col-xs-4 icon icon-logo-2">
     	</div>
       <div class="col-xs-4">
-        <h5 class="white-text">Footer Content</h5>
-        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <h5 class="white-text"></h5>
+        <p class="grey-text text-lighten-4">
+        	<p>Copyright © 1996-2016 Loyola University New Orleans<br>
+				Miller Hall, Room 301<br>
+				6363 St. Charles Avenue | Box 15 | New Orleans, LA 70118<br>
+				Phone: 504-864-7944 Fax: 504-864-7970</p>
+				<div class="footer-links"><a href="/intranet">College of Business Intranet</a> <a href="http://www.loyno.edu/emergency">Emergency Information</a></div>.</p>
       </div>
-      <div class="col-xs-4">
+      <!-- <div class="col-xs-4">
         <h5 class="white-text">Links</h5>
         <ul>
           <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
@@ -167,7 +172,7 @@
           <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
 
         </ul>
-      </div>
+      </div> -->
     </div>
 </footer>
 
@@ -178,7 +183,11 @@
 
 <script type="text/javascript">
 		// Initialize collapse button
-	$(".button-collapse").sideNav();
+	$(".button-collapse").sideNav({
+		edge: 'right', // Choose the horizontal origin
+		closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      	draggable: true, // Choose whether you can drag to open on touch screens,
+	});
 
 </script>
 
