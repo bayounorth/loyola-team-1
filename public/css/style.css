@@ -1,19 +1,26 @@
 body { 
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.5;
-	font-size: 1rem;
-		color: #373a3c;
-		background-color: #fff;
+	font-size: 14px;
+	color: #373a3c;
+	background-color: #fff;
 }
 
 
 .container{
-	width: 100%;
+	width: 100% !important;
 	margin-left: 0px;
 	margin-right: 0px;
 }
 
-.parallax{
+
+.p-container{
+	max-width: none;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.jumbotron{
 	background-image: url("/img/images/KEN_4269.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
