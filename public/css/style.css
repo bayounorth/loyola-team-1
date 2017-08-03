@@ -20,13 +20,6 @@ body {
 	padding-left: 0px !important;
 }
 
-.jumbotron{
-	background-image: url("/img/images/KEN_4269.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-left: 0px;
-	margin-right: 0px;
-}
 
 .main-heading{
 	font-size: 30px;
@@ -47,10 +40,11 @@ body {
 	position: absolute;
 	top: 100px;
 	left: 400px;
+
 }
 
 #cta{
-	/*text-align: center;*/
+	text-align: center;
 	z-index: 1000;
 	position: absolute;
 	top: 250px;
