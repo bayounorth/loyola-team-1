@@ -82,12 +82,23 @@ body {
 	padding-left: 100px;
 }*/
 
+img{
+	height: auto;
+	width: 100%;
+}
+
+.static{
+	position: relative;
+}
+
 .main-title{
-	text-align: center;
+	align-content: center;
 	z-index: 1000;
 	position: absolute;
 	top: 100px;
 	left: 400px;
+	color: #fff;
+	font-weight: 150;
 
 }
 
