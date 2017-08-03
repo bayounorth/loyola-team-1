@@ -216,3 +216,16 @@ footer a img.loynoLogo {
 }
 
 
+.freebirdHeaderMast {
+    background: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 660px){
+.freebirdFormviewerViewFormBanner {
+    height: 122px;}
+}
+
+.freebirdFormviewerViewFormBanner {
+    height: 278px;
+}
