@@ -9,13 +9,16 @@ body {
 
 .container{
 	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .jumbotron{
 	background-image: url("/img/images/KEN_4269.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .main-heading{
@@ -25,6 +28,11 @@ body {
 .info-heading{
 	font-size: 25px;
 }
+
+/*.twitter{
+	text-align: center;
+	padding-left: 100px;
+}*/
 
 .main-title{
 	text-align: center;
