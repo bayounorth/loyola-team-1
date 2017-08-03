@@ -6,6 +6,10 @@ body {
 	background-color: #fff;
 }
 
+@font-face {
+    font-family: 'Faith_One';
+    src: url(../fonts/Faith_And_Glory_One.otf);
+}
 
 /* CONTAINERS + PARALLAX CONTAINERS */
 
@@ -39,10 +43,18 @@ body {
 .container6{
 	height: 300px;
 	background-color: #E5554F;
+	padding: 50px;
 }
 
 .container6 p{
 	font-size: 20px;
+}
+
+.container7 h2{
+	padding: 40px;
+	padding-top: 60px;
+	text-align: center;
+	font-family: Faith_One;
 }
 
 .p-container{
