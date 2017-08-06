@@ -29,24 +29,21 @@ body {
 	font-size: 25px;
 }
 
-/*.twitter{
-	text-align: center;
-	padding-left: 100px;
-}*/
 
 img{
 	height: auto;
 	width: 100%;
 }
 
-.static{
+/*.static{
 	position: relative;
-}
+}*/
+
 
 .main-title{
 	align-content: center;
 	z-index: 1000;
-	position: absolute;
+	position: relative;
 	top: 100px;
 	left: 400px;
 	color: #fff;
@@ -54,13 +51,20 @@ img{
 
 }
 
-#cta{
+/*#cta{
 	text-align: center;
 	z-index: 1000;
 	position: absolute;
 	top: 250px;
 	left: 525px;
-}
+}*/
+
+/*@media screen and (max-width: 450px;){
+	.static{
+		position: static;
+	
+	}
+}*/
 
 .fullwidth {
 	width: 100%;
