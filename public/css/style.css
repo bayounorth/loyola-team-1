@@ -43,7 +43,7 @@ body {
 }
 
 .container6{
-	height: 300px;
+	/*height: 300px;*/
 	background-color: #E5554F;
 	padding: 50px;
 }
@@ -372,7 +372,10 @@ footer a img.loynoLogo {
 	.container5 p{
 		font-size: 20px;
 		line-height: 170%;
-		} 
+		}
+	.container6 p{
+		font-size: 20px;
+		}
 	}
 
 
@@ -380,6 +383,9 @@ footer a img.loynoLogo {
 	.container5 p{
 		font-size: 20px;
 		line-height: 150%;
+		}
+	.container6 p{
+		font-size: 20px;
 		} 
 	}
 
@@ -388,12 +394,18 @@ footer a img.loynoLogo {
 		font-size: 15px;
 		line-height: 250%;
 		} 
+	.container6 p{
+		font-size: 15px;
+		} 
 	}
 
 @media (min-width:725px) and (max-width: 829px) { 
 	.container5 p{
 		font-size: 15px;
 		line-height: 200%;
+		}
+	.container6 p{
+		font-size: 15px;
 		} 
 	}
 
@@ -401,13 +413,19 @@ footer a img.loynoLogo {
 	.container5 p{
 		font-size: 13px;
 		line-height: 200%;
-		} 
+		}
+	.container6 p{
+		font-size: 13px;
+		}  
 	}
 
 @media (min-width: 600px) and (max-width: 644px) { 
 	.container5 p{
 		font-size: 13px;
 		line-height: 180%;
+		} 
+	.container6 p{
+		font-size: 13px;
 		} 
 	}
 
@@ -416,6 +434,9 @@ footer a img.loynoLogo {
 		font-size: 11px;
 		line-height: 200%;
 		} 
+	.container6 p{
+		font-size: 11px;
+		} 
 	}
 
 @media (min-width: 450px) and (max-width: 530px) { 
@@ -423,15 +444,20 @@ footer a img.loynoLogo {
 		font-size: 10px;
 		line-height: 170%;
 		} 
+	.container6 p{
+		font-size: 9px;
+		} 
 	}
 
 @media (min-width: 1px) and (max-width: 449px) { 
 	.container5 p{
 		font-size: 9px;
 		line-height: 150%;
-		} 
+		}
+	.container6 p{
+		font-size: 9px;
+		}  
 	}
-
 
 
 
