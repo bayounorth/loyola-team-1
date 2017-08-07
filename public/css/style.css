@@ -88,12 +88,14 @@ body {
 	margin-top:-10px;
 }
 
+
+
 /*.twitter{
 	text-align: center;
 	padding-left: 100px;
 }*/
 
-img{
+.banner-img{
 	height: auto;
 	width: 100%;
 }
