@@ -368,6 +368,21 @@ footer a img.loynoLogo {
 /* MEDIA QUERIES */
 
 	/*SET 1*/
+@media (min-width:951px) { 
+	.container5 p{
+		font-size: 20px;
+		line-height: 170%;
+		} 
+	}
+
+
+@media (min-width:901px) and (max-width: 950px){ 
+	.container5 p{
+		font-size: 20px;
+		line-height: 150%;
+		} 
+	}
+
 @media (min-width:830px) and (max-width: 900px) { 
 	.container5 p{
 		font-size: 15px;
