@@ -23,6 +23,7 @@ angular.module('MainCtrl', ['typer']).controller('MainController', function($sco
 	}
 
 	$scope.image = "/img/images/KEN_4269.jpg";
+	$scope.loyolaLogo = "/img/logos/logo-loyola-horizontal-w.svg";
 	
 
 	//menu links

@@ -11,6 +11,8 @@ body {
     src: url(../fonts/Faith_And_Glory_One.otf);
 }
 
+
+
 /* CONTAINERS + PARALLAX CONTAINERS */
 
 .container{
@@ -75,6 +77,11 @@ body {
 
 .info-heading{
 	font-size: 25px;
+}
+
+.brand-logo img{
+	width: 700px;
+	margin-top:-10px;
 }
 
 /*.twitter{
@@ -273,6 +280,12 @@ footer a img.loynoLogo {
 	.icon-logo-2{
 		max-width:200px;}
 }
+
+/* FORMS */
+.btn-space {
+	margin-bottom: 20px;
+}
+
 
 /* TOP NAV */
 .top-nav {
