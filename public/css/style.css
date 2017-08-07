@@ -317,7 +317,7 @@ footer a img.loynoLogo {
 }
 
 .navbar-fixed-top{
-	background: rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.0);
 	border-bottom: none;
 }
 .navbar.navbar-default {
