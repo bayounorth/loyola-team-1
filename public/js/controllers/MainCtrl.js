@@ -1,4 +1,4 @@
-angular.module('MainCtrl', ['typer']).controller('MainController', function($scope) {
+angular.module('MainCtrl', ['typer']).controller('MainController', function($scope, $http) {
 
 	$scope.tagline = 'To the moon and back!';	
 
@@ -24,7 +24,24 @@ angular.module('MainCtrl', ['typer']).controller('MainController', function($sco
 
 	$scope.image = "/img/images/KEN_4269.jpg";
 	$scope.loyolaLogo = "/img/logos/logo-loyola-horizontal-w.svg";
+
+
+	//APPLICATION AVAILABLE
+
+	// //Tesnting if show is working
+	$scope.applicationAllow = true;
+	// // $scope.applicationAllow = false;
+
 	
+	$http.get("https://gentle-shore-39524.herokuapp.com/application-allowed")
+	    .then(function(response) {
+	        $scope.applicationAllow  = response.data;
+	        console.log($scope.applicationAllow );
+	    });
+
+
+
+
 
 	//menu links
 	// $scope.goHome = function(){

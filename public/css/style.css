@@ -66,6 +66,10 @@ body {
 	width:50%;
 }
 
+.parallax-container{
+	width: 100%;
+	
+}
 
 
 
@@ -94,14 +98,15 @@ img{
 	width: 100%;
 }
 
-.static{
+/*.static{
 	position: relative;
-}
+}*/
+
 
 .main-title{
 	align-content: center;
 	z-index: 1000;
-	position: absolute;
+	position: relative;
 	top: 100px;
 	left: 400px;
 	color: #fff;
@@ -109,13 +114,20 @@ img{
 
 }
 
-#cta{
+/*#cta{
 	text-align: center;
 	z-index: 1000;
 	position: absolute;
 	top: 250px;
 	left: 525px;
-}
+}*/
+
+/*@media screen and (max-width: 450px;){
+	.static{
+		position: static;
+	
+	}
+}*/
 
 .fullwidth {
 	width: 100%;
@@ -294,6 +306,9 @@ footer a img.loynoLogo {
 
 
 /* SIDE NAV */
+.nav-btn{
+	float: right;
+}
 
 .side-nav{
 	width:570px;
@@ -317,3 +332,26 @@ footer a img.loynoLogo {
 .freebirdFormviewerViewFormBanner {
     height: 278px;
 }
+
+.navbar-fixed-top{
+	background: rgba(255, 255, 255, 0.0);
+	border-bottom: none;
+}
+.navbar.navbar-default {
+   
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+
+
+
+
