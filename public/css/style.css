@@ -52,7 +52,7 @@ body {
 	font-size: 20px;
 }
 
-.container7 h2{
+.container7 h1{
 	padding: 40px;
 	padding-top: 60px;
 	text-align: center;
@@ -372,92 +372,116 @@ footer a img.loynoLogo {
 	.container5 p{
 		font-size: 20px;
 		line-height: 170%;
-		}
+	}
 	.container6 p{
 		font-size: 20px;
-		}
 	}
+}
 
 
 @media (min-width:901px) and (max-width: 950px){ 
 	.container5 p{
 		font-size: 20px;
 		line-height: 150%;
-		}
+	}
 	.container6 p{
 		font-size: 20px;
-		} 
-	}
+	} 
+}
 
 @media (min-width:830px) and (max-width: 900px) { 
 	.container5 p{
 		font-size: 15px;
 		line-height: 250%;
-		} 
+	} 
 	.container6 p{
 		font-size: 15px;
-		} 
 	}
+	.container7 h1{
+		font-size: 55px;
+	} 
+}
 
 @media (min-width:725px) and (max-width: 829px) { 
 	.container5 p{
 		font-size: 15px;
 		line-height: 200%;
-		}
+	}
 	.container6 p{
 		font-size: 15px;
-		} 
-	}
+	} 
+	.container7 h1{
+		font-size: 50px;
+	}  
+}
 
 @media (min-width:645px) and (max-width: 724px) { 
 	.container5 p{
 		font-size: 13px;
 		line-height: 200%;
-		}
+	}
 	.container6 p{
 		font-size: 13px;
-		}  
 	}
+	.container7 h1{
+		font-size: 48px;
+	}   
+}
 
 @media (min-width: 600px) and (max-width: 644px) { 
 	.container5 p{
 		font-size: 13px;
 		line-height: 180%;
-		} 
+	} 
 	.container6 p{
 		font-size: 13px;
-		} 
 	}
+	.container7 h1{
+		font-size: 45px;
+	}  
+}
 
 @media (min-width: 531px) and (max-width: 599px) { 
 	.container5 p{
 		font-size: 11px;
 		line-height: 200%;
-		} 
+	} 
 	.container6 p{
 		font-size: 11px;
-		} 
+	} 
+	.container7 h2{
+		font-size: 40px;
 	}
+	.container7 h1{
+		font-size: 40px;
+	}  
+}
 
 @media (min-width: 450px) and (max-width: 530px) { 
 	.container5 p{
 		font-size: 10px;
 		line-height: 170%;
-		} 
+	} 
 	.container6 p{
 		font-size: 9px;
-		} 
-	}
+	} 
+	.container7 h1{
+		font-size: 35px;
+	}  
+}
 
 @media (min-width: 1px) and (max-width: 449px) { 
 	.container5 p{
 		font-size: 9px;
 		line-height: 150%;
-		}
+	}
 	.container6 p{
 		font-size: 9px;
-		}  
 	}
+	.container7 h1{
+		font-size: 35px;
+	}  
+}
 
 
 
