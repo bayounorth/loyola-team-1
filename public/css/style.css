@@ -331,8 +331,20 @@ footer a img.loynoLogo {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
+
 }
-Be
+
+.navbar.navbar-default .navbar-collapse li{
+	float: right;
+
+	}
+
+.navbar.navbar-default .navbar-collapse ul{
+	float: right;
+
+	}
+
+
 
 
 
