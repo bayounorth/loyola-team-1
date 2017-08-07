@@ -11,6 +11,8 @@ body {
     src: url(../fonts/Faith_And_Glory_One.otf);
 }
 
+
+
 /* CONTAINERS + PARALLAX CONTAINERS */
 
 .container{
@@ -64,7 +66,7 @@ body {
 	width:50%;
 }
 
-.parallax-container{
+.main-img{
 	width: 100%;
 	
 }
@@ -81,6 +83,15 @@ body {
 	font-size: 25px;
 }
 
+.brand-logo img{
+	width: 700px;
+	margin-top:-10px;
+}
+
+/*.twitter{
+	text-align: center;
+	padding-left: 100px;
+}*/
 
 img{
 	height: auto;
@@ -282,6 +293,12 @@ footer a img.loynoLogo {
 		max-width:200px;}
 }
 
+/* FORMS */
+.btn-space {
+	margin-bottom: 20px;
+}
+
+
 /* TOP NAV */
 .top-nav {
 	width:100%;
@@ -291,6 +308,7 @@ footer a img.loynoLogo {
 /* SIDE NAV */
 .nav-btn{
 	float: right;
+
 }
 
 .side-nav{
@@ -333,6 +351,7 @@ footer a img.loynoLogo {
     box-shadow: none;
 
 }
+
 
 .navbar.navbar-default .navbar-collapse li{
 	float: right;

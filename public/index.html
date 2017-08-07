@@ -61,6 +61,13 @@
 <!-- TOP NAV -->
   <nav>
     <div class="nav-wrapper top-nav">
+      <a href="#" class="brand-logo"><img src="{{ loyolaLogo }}"></a>
+    </div>
+  </nav>
+<!-- / TOP NAV -->
+
+
+	<!-- SIDE MENU -->
    <!-- <a href="#" data-activates="slide-out" class="button-collapse show-on-large" style="float: right;"><i class="material-icons nav-btn">menu</i></a> -->
    <!-- SIDE MENU -->
 	<ul id="slide-out" class="side-nav">
@@ -94,7 +101,53 @@
 		<div ng-show="menuView == 2" id=menuView2>
 			<li ng-click="showBacktoNav()"><a  class="subheader">Back to navigation</a></li>
 			<li><a class="subheader">Subscribe</a></li>
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWfWLGOXGIQTwEXwKIO1zObHG9rhpzZtor1GDPqFJ1AAGjeg/viewform?embedded=true" width="560" height="1050" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWfWLGOXGIQTwEXwKIO1zObHG9rhpzZtor1GDPqFJ1AAGjeg/viewform?embedded=true" width="560" height="1050" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+
+		<!-- START FORM 1 -->
+			<form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScWfWLGOXGIQTwEXwKIO1zObHG9rhpzZtor1GDPqFJ1AAGjeg/formResponse" target="_self" method="POST">
+			
+				<div><h5>Subscribe</h5></div>
+				<div>Please provide your name and email to subscribe to emails pertaining to Loyola's Software Development and Coding Program.</div>
+				<div><h6>* Required</h6></div>
+				
+				<div class="input-field">
+						<input type="text" aria-label="Name" name="entry.69480479" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="">
+						<label for="name-sub">Name (first & last) <span aria-hidden="true">*</span></label>
+				</div>
+
+				<div class="input-field">
+						<input id="email-sub" type="email" aria-label="Email Address" name="entry.1470345420" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+						<label for="email-sub">Email Address <span aria-hidden="true">*</span></label>
+				</div>
+				
+				<div>
+					<label class="input-field"><h6>How did you learn about this program?</h6></label>
+					<p><input type="radio" class="with-gap" name="entry.724160149" value="Loyola's website" id="radio1">
+						<label for="radio1">Loyola's website</label></p>
+					<p><input type="radio" class="with-gap" name="entry.724160149" value="Email" id="radio2">
+						<label for="radio2">Email</label></p>
+					<p><input type="radio" class="with-gap" name="entry.724160149" value="A friend" id="radio3">
+						<label for="radio3">A friend</label></p>
+					<p><input type="radio" class="with-gap inline" name="entry.724160149" value="Other" id="radio4">
+							<label for="radio4">Other:
+									<input class="other" id="radio4" type="text" name="entry.724160149" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+							</label>
+					</p>
+					<br>
+			  </div>
+				
+				<div class="input-field">
+					<input type="text" tabindex="0" aria-label="Why are you interested in the program?" name="entry.1132813127" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+					<label for="interest-sub">Why are you interested in the program?</label>
+					</div>
+			
+			<input class="btn btn-space" type="submit" value="Send" data-target="_self"
+			onload="if(submitted)  {window.location='https://docs.google.com/forms/d/e/1FAIpQLScWfWLGOXGIQTwEXwKIO1zObHG9rhpzZtor1GDPqFJ1AAGjeg/formResponse/';}">
+</form>
+
+
+
+
 		 
 		</div>
 		<!--  form2 -->
