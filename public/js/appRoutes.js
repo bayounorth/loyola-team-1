@@ -2,7 +2,6 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 
 	$routeProvider
 
-		// home page
 		.when('/', {
 			templateUrl: 'views/home.html',
 			controller: 'MainController'
@@ -18,6 +17,10 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'AppliedController'	
 		})
 
+		.when('/profiles', {
+			templateUrl: 'views/profiles.html',
+			controller: 'ProfileController'
+		})
 
 		.when('/footer', {
 			templateUrl: 'views/footer.html',
@@ -26,19 +29,11 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 		.when('/twitter', {
 			templateUrl: 'views/twitter.html',
 			controller: 'twitterController'
-
 		})
 
 		.when('/parallax', {
 			templateUrl: 'views/parallax.html',
 			controller: 'ParallaxController'
-
-		})
-		
-		.when('/profiles', {
-			templateUrl: 'views/profiles.html',
-			controller: 'ProfileController'
-
 		});
 		
 

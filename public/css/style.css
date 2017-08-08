@@ -66,8 +66,7 @@ body {
 }
 
 .main-img{
-	width: 100%;
-	
+	width: 100%;	
 }
 
 .faq-img{
@@ -155,23 +154,8 @@ body {
 	left: 400px;
 	color: #fff;
 	font-weight: 200;
-
 }
 
-/*#cta{
-	text-align: center;
-	z-index: 1000;
-	position: absolute;
-	top: 250px;
-	left: 525px;
-}*/
-
-/*@media screen and (max-width: 450px;){
-	.static{
-		position: static;
-	
-	}
-}*/
 
 .fullwidth {
 	width: 100%;
@@ -559,6 +543,33 @@ footer a img.loynoLogo {
 	padding: 25px;
 }
 
+.formLabel {
+	/*color: #F93822;*/
+}
+
+input.formLabel:not([type]):focus:not([readonly]), input.formLabel[type=text]:not(.browser-default):focus:not([readonly]), input.formLabel[type=password]:not(.browser-default):focus:not([readonly]), input.formLabel[type=email]:not(.browser-default):focus:not([readonly]), input.formLabel[type=url]:not(.browser-default):focus:not([readonly]), input.formLabel[type=time]:not(.browser-default):focus:not([readonly]), input.formLabel[type=date]:not(.browser-default):focus:not([readonly]), input.formLabel[type=datetime]:not(.browser-default):focus:not([readonly]), input.formLabel[type=datetime-local]:not(.browser-default):focus:not([readonly]), input.formLabel[type=tel]:not(.browser-default):focus:not([readonly]), input.formLabel[type=number]:not(.browser-default):focus:not([readonly]), input.formLabel[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+		border-bottom: 1px solid #E5554F !important;
+	    -webkit-box-shadow: 0 1px 0 0 #E5554F !important;
+	    box-shadow: 0 1px 0 0 #E5554F !important;
+}
+
+input.formLabel:not([type]):focus:not([readonly])+label, input.formLabel[type=text]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=password]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=email]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=url]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=time]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=date]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=datetime]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=tel]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=number]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+		color:  #E5554F;
+}
+
+
+/* BUTTON STYLES */
+.btnStyle {
+	background-color: #F93822;
+}
+
+.btnStyle:focus, 
+.btnStyle.focus, 
+.btn:hover{
+	background-color: #E5554F;
+}
+
+
 
 /* TYPER BLINKER */
 .typer__cursor--blink {
@@ -590,31 +601,4 @@ footer a img.loynoLogo {
   }
   100% {
     opacity: 0;
-  }
-
-.formLabel {
-	/*color: #F93822;*/
-}
-
-input.formLabel:not([type]):focus:not([readonly]), input.formLabel[type=text]:not(.browser-default):focus:not([readonly]), input.formLabel[type=password]:not(.browser-default):focus:not([readonly]), input.formLabel[type=email]:not(.browser-default):focus:not([readonly]), input.formLabel[type=url]:not(.browser-default):focus:not([readonly]), input.formLabel[type=time]:not(.browser-default):focus:not([readonly]), input.formLabel[type=date]:not(.browser-default):focus:not([readonly]), input.formLabel[type=datetime]:not(.browser-default):focus:not([readonly]), input.formLabel[type=datetime-local]:not(.browser-default):focus:not([readonly]), input.formLabel[type=tel]:not(.browser-default):focus:not([readonly]), input.formLabel[type=number]:not(.browser-default):focus:not([readonly]), input.formLabel[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
-		border-bottom: 1px solid #E5554F !important;
-	    -webkit-box-shadow: 0 1px 0 0 #E5554F !important;
-	    box-shadow: 0 1px 0 0 #E5554F !important;
-}
-
-input.formLabel:not([type]):focus:not([readonly])+label, input.formLabel[type=text]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=password]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=email]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=url]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=time]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=date]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=datetime]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=tel]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=number]:not(.browser-default):focus:not([readonly])+label, input.formLabel[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
-		color:  #E5554F;
-}
-
-
-/* BUTTON STYLES */
-.btnStyle {
-	background-color: #F93822;
-}
-
-.btnStyle:focus, 
-.btnStyle.focus, 
-.btn:hover{
-	background-color: #E5554F;
-
-}
+ }
