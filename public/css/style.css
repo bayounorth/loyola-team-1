@@ -131,7 +131,7 @@ body {
 	top: 100px;
 	left: 400px;
 	color: #fff;
-	font-weight: 150;
+	font-weight: 200;
 
 }
 
@@ -529,4 +529,37 @@ footer a img.loynoLogo {
 
 .formSpace {
 	padding: 25px;
+}
+
+/* TYPER BLINKER */
+.typer__cursor--blink {
+  -webkit-animation: blink 1s infinite;
+  -moz-animation: blink 1s infinite;
+  animation: blink 0.8s infinite;
+}
+ 
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+ 
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
