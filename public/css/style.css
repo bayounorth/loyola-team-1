@@ -154,7 +154,10 @@ body {
 	width: 100%;
 }
 
-
+.applied-btn{
+	text-decoration: none;
+	color: white;
+}
 
 
 /* FOOTER */
