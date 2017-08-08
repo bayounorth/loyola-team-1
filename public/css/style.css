@@ -51,17 +51,17 @@ body {
 }
 
 .container7 h1{
-	padding: 40px;
-	padding-top: 60px;
+	padding: 20px;
+	padding-top: 75px;
 	text-align: center;
 	font-family: Faith_One;
+	line-height: 150%;
 }
 
 .p-container{
 	max-width: none;
 	padding-right: 0px !important;
 	padding-left: 0px !important;
-	width:50%;
 }
 
 .main-img{
@@ -381,8 +381,8 @@ footer a img.loynoLogo {
 
 @media (min-width:901px) and (max-width: 950px){ 
 	.container5 p{
-		font-size: 20px;
-		line-height: 150%;
+		font-size: 15px;
+		line-height: 250%;
 	}
 	.container6 p{
 		font-size: 20px;
@@ -399,10 +399,11 @@ footer a img.loynoLogo {
 	}
 	.container7 h1{
 		font-size: 55px;
+		padding-top: 50px;
 	} 
 }
 
-@media (min-width:725px) and (max-width: 829px) { 
+@media (min-width:768px) and (max-width: 829px) { 
 	.container5 p{
 		font-size: 15px;
 		line-height: 200%;
@@ -411,74 +412,110 @@ footer a img.loynoLogo {
 		font-size: 15px;
 	} 
 	.container7 h1{
-		font-size: 50px;
+		font-size: 55px;
+		padding-top: 50px;
 	}  
 }
 
-@media (min-width:645px) and (max-width: 724px) { 
-	.container5 p{
+@media (min-width:645px) and (max-width: 767px) { 
+/*	.container5 p{
 		font-size: 13px;
 		line-height: 200%;
-	}
+	}*/
 	.container6 p{
-		font-size: 13px;
+		font-size: 14px;
 	}
 	.container7 h1{
 		font-size: 48px;
 	}   
+	.container7{
+		height: 330px;
+		padding-top: 0px;
+	}
 }
 
-@media (min-width: 600px) and (max-width: 644px) { 
-	.container5 p{
+
+@media (min-width: 610px) and (max-width: 644px) { 
+/*	.container5 p{
 		font-size: 13px;
 		line-height: 180%;
-	} 
+	} */
 	.container6 p{
-		font-size: 13px;
+		font-size: 14px;
 	}
 	.container7 h1{
-		font-size: 45px;
-	}  
+		font-size: 48px;
+	}   
+	.container7{
+		height: 330px;
+		padding-top: 0px;
+	}
 }
 
-@media (min-width: 531px) and (max-width: 599px) { 
+@media (min-width: 531px) and (max-width: 609px) { 
 	.container5 p{
-		font-size: 11px;
+		font-size: 20px;
 		line-height: 200%;
 	} 
 	.container6 p{
-		font-size: 11px;
-	} 
-	.container7 h2{
-		font-size: 40px;
+		font-size: 14px;
 	}
 	.container7 h1{
 		font-size: 40px;
-	}  
+	}   
+	.container7{
+		height: 330px;
+		padding-top: 0px;
+	}
 }
 
-@media (min-width: 450px) and (max-width: 530px) { 
+@media (min-width: 480px) and (max-width: 530px) { 
 	.container5 p{
-		font-size: 10px;
-		line-height: 170%;
+		font-size: 18px;
+		line-height: 200%;
 	} 
 	.container6 p{
-		font-size: 9px;
-	} 
+		font-size: 14px;
+	}
 	.container7 h1{
-		font-size: 35px;
-	}  
+		font-size: 40px;
+	}   
+	.container7{
+		height: 330px;
+		padding-top: 0px;
+	} 
 }
 
-@media (min-width: 1px) and (max-width: 449px) { 
+@media (min-width: 430px) and (max-width: 479px) { 
 	.container5 p{
-		font-size: 9px;
-		line-height: 150%;
+		font-size: 16px;
+		line-height: 200%;
 	}
 	.container6 p{
-		font-size: 9px;
+		font-size: 14px;
 	}
 	.container7 h1{
-		font-size: 35px;
+		font-size: 36px;
+	}   
+	.container7{
+		height: 330px;
+		padding-top: 0px;
+	} 
+}
+
+@media (min-width: 1px) and (max-width: 429px) { 
+	.container5 p{
+		font-size: 15px;
+		line-height: 200%;
 	}
+	.container6 p{
+		font-size: 14px;
+	}
+	.container7 h1{
+		font-size: 32px;
+	}   
+	.container7{
+		height: 330px;
+		padding-top: 0px;
+	} 
 }
