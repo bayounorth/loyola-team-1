@@ -74,6 +74,10 @@ body {
 	height: 200px;
 }
 
+.applied-img{
+	width: 100%;
+	height: 200px;
+}
 /* HEADING */
 
 .top-nav {
@@ -565,6 +569,14 @@ input.formLabel:not([type]):focus:not([readonly])+label, input.formLabel[type=te
 	background-color: #E5554F;
 }
 
+
+.cPadding{
+	padding: 100px;
+}
+
+.cPaddingFAQ{
+	padding: 10px 100px 100px 100px;
+}
 
 
 /* TYPER BLINKER */
