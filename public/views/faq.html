@@ -1,3 +1,19 @@
+<div class="parallax-container faq-img">
+  <div class="parallax"> 
+
+  <div class="static col s12 m6">
+  <h1 class="main-title col-s-12 col-md-6">FAQ</h1>
+
+
+
+<!--   <p id="cta"><a class="btn btn-primary btn-lg center-bl responsive-width" href="#" role="button">Learn more</a></p> -->
+  </div>
+  <img class="banner-img" ng-src = "{{image}}"/>
+
+  
+  </div>
+</div>
+
 <div class="container">
 
 	<ul class="collapsible" data-collapsible="expandable">
@@ -77,4 +93,9 @@
 		$(document).ready(function(){
 		$('.collapsible').collapsible();
 	});
+		//PARALLAX INITIALIZATION
+
+		 $(document).ready(function(){
+      $('.parallax').parallax();
+    });
 	</script>
