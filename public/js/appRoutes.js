@@ -33,6 +33,12 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			templateUrl: 'views/parallax.html',
 			controller: 'ParallaxController'
 
+		})
+		
+		.when('/profiles', {
+			templateUrl: 'views/profiles.html',
+			controller: 'ProfileController'
+
 		});
 		
 
