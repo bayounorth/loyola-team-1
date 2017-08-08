@@ -107,7 +107,7 @@ body {
 }
 
 .sub-style{
-	color: black !important; 
+	color: #000 !important; 
 }
 /*.twitter{
 	text-align: center;
@@ -377,7 +377,7 @@ footer a img.loynoLogo {
 	}
 }
 
-@media (min-width: 1px) and (max-width: 950px){
+@media (min-width: 1px) and (max-width: 1090px){
 	.headerLogo img {
 		margin-top: -20px;
 	}
