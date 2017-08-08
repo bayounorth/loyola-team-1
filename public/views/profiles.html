@@ -1,0 +1,20 @@
+<!-- EXISTING STORIES POPULATE-->
+	<div class="block-container">
+		<div class="container populate-container col-xs-12">
+			<h2>BOOTCAMP PROFILES</h2>
+
+			<div class="container profile-container" id="profile-story" ng-repeat="x in stories">
+				<div>
+					<button type="button" class="btn btn-default">
+						<span class="glyphicon glyphicon-user">{{x.picture}}</span>
+					</button>
+				</div>
+
+					<div>{{x.name}}</div>
+					<div>{{x.description}}</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END EXISTING STORIES -->
