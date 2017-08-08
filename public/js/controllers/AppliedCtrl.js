@@ -1,5 +1,4 @@
-angular.module('AppliedCtrl', []).controller('AppliedController', function($scope) {
+angular.module('AppliedCtrl', []).controller('AppliedController', function($scope, $http) {
 
-	$scope.tagline = 'The square root of life is pi!';	
 
 });
