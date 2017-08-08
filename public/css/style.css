@@ -62,6 +62,7 @@ body {
 	max-width: none;
 	padding-right: 0px !important;
 	padding-left: 0px !important;
+	
 }
 
 .main-img{
@@ -134,6 +135,7 @@ body {
 .banner-img{
 	height: auto;
 	width: 100%;
+
 }
 
 /*.static{
@@ -171,7 +173,10 @@ body {
 	width: 100%;
 }
 
-
+.applied-btn{
+	text-decoration: none;
+	color: white;
+}
 
 
 /* FOOTER */
