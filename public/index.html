@@ -48,13 +48,13 @@
 
 
 <!-- FIXED NAV BAR -->
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top floatNav">
 	  <div class="container">
 	  	<ul style="float: right;">
-		  	<li><a data-activates="slide-out" class="button-collapse show-on-large links" ng-click="showApply()">Apply to Program</a></li>
+		  	<li><a data-activates="slide-out" class="button-collapse show-on-large links floatNav" ng-click="showApply()">Apply to Program</a></li>
 		  	<li><p >/</p></li>
-		  	<li><a data-activates="slide-out" class="button-collapse show-on-large links" ng-click="showSubscribe()">Subscribe to mail list</a></li>
-		    <li><a href="#" data-activates="slide-out" class="button-collapse show-on-large links" id="menu-button" ><i class="material-icons">menu</i></a></li>
+		  	<li><a data-activates="slide-out" class="button-collapse show-on-large links floatNav" ng-click="showSubscribe()">Subscribe to mail list</a></li>
+		    <li><a href="#" data-activates="slide-out" class="button-collapse show-on-large links floatNav" id="menu-button"><i class="material-icons">menu</i></a></li>
 	    </ul>
 	  </div>
 	</nav>
@@ -152,10 +152,12 @@
 					<label for="interest-sub">Why are you interested in the program?</label>
 				</div>
 			
-				<input class="btn btn-space" type="submit" value="Send" data-target="_self"
+				<input class="btn btn-space btnStyle" type="submit" value="Send" data-target="_self"
 			onload="if(submitted)  {window.location='https://docs.google.com/forms/d/e/1FAIpQLScWfWLGOXGIQTwEXwKIO1zObHG9rhpzZtor1GDPqFJ1AAGjeg/formResponse/';}">
 			</form>
 		</div>
+
+
 		<!--  form2 -->
 		<div ng-show="menuView == 3" id=menuView3>
 			<li ng-click="showBacktoNav()"><a  class="subheader">Back to navigation</a></li>
@@ -210,7 +212,7 @@
 						<label for="tech-interest">How did you get into technology and/or coding?</label>
 					</div>
 
-					<input class="btn btn-space" type="submit" value="Send" data-target="_self"
+					<input class="btn btn-space btnStyle" type="submit" value="Send" data-target="_self"
 			onload="if(submitted)  {window.location='https://docs.google.com/forms/d/e/1FAIpQLSf45qT4JFUd81cvDtUmRxxZkYAYiYoalrHpBYNGtD_OZkGdoQ/formResponse';}">
 
 				</form>

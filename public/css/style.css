@@ -106,13 +106,20 @@ body {
 	color: #FFD700;
 }
 
-.sub-style{
+
+/* FIXED FLOAT NAV */
+
+.navStyle{
 	color: #000 !important; 
 }
-/*.twitter{
-	text-align: center;
-	padding-left: 100px;
-}*/
+
+.floatNav ul a:focus, a:hover {
+	outline: none !important; 
+    outline-offset: 0px !important; 
+    text-decoration: none !important;
+    background: none !important;
+    color: #FFD700;
+}
 
 .banner-img{
 	height: auto;
@@ -527,6 +534,20 @@ footer a img.loynoLogo {
 	} 
 }
 
+
+/* FORM STYLIZING */
 .formSpace {
 	padding: 25px;
+}
+
+
+/* BUTTON STYLES */
+.btnStyle {
+	background-color: #F93822;
+}
+
+.btnStyle:focus, 
+.btnStyle.focus, 
+.btn:hover{
+	background-color: #E5554F;
 }
