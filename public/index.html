@@ -71,18 +71,12 @@
   </nav>
 <!-- / TOP NAV -->
 
-
-	<!-- SIDE MENU -->
-   <!-- <a href="#" data-activates="slide-out" class="button-collapse show-on-large" style="float: right;"><i class="material-icons nav-btn">menu</i></a> -->
    <!-- SIDE MENU -->
+	
 	<ul id="slide-out" class="side-nav navStyle">
  <!--  this is the part of the menu that is used in all views -->
 
-
 		<li><div class="user-view">
-			<div class="background">
-				<img src="images/office.jpg">
-			</div>
 			<br>
 			</div></li>
 		<li><div class="divider"></div></li>
@@ -90,7 +84,7 @@
 
 	<!-- NAVIGATION -->
 		<div ng-show="menuView == 1" id=menuView1>
-			<li><a class="subheader navStyle">Navigation</a></li>
+			<!-- <li><a class="subheader navStyle">Navigation</a></li> -->
 				<li><div class="divider"></div></li>
 			<li><a href="/">Home</a></li>
 				<li><div class="divider"></div></li>
@@ -103,12 +97,10 @@
 			<li><a href="/applied">Applied Students</a></li>
 				<li><div class="divider"></div></li>
 			<li><a href="">Tech stories</a></li>
-
 				<li><div class="divider"></div></li>
 			<li><a href="/profiles">Profiles</a></li>
 				<li><div class="divider"></div></li>
 			<li><a href="http://www.loyno.edu/" target="blank_">Back to Loyola</a></li>
-
 				<li><div class="divider"></div></li>
 			<li><a href="https://lora.loyno.edu/" target="blank_">LORA</a></li>
 
@@ -227,7 +219,7 @@
 			</div>
 
 			<div ng-show="applicationAllow == false">
-				<p>Sorry, there are no courses available right now <br> Please subscribe to our mailing list so we can contact you when there is a new course available. Thank you.</p>
+				<div class="formSpace"><p>Sorry, there are no courses available right now <br> Please subscribe to our mailing list so we can contact you when there is a new course available. Thank you.</p></div>
 			</div>
 		 
 		</div>
