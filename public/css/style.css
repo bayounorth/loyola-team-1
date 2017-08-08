@@ -62,6 +62,7 @@ body {
 	max-width: none;
 	padding-right: 0px !important;
 	padding-left: 0px !important;
+	
 }
 
 .main-img{
@@ -117,6 +118,7 @@ body {
 .banner-img{
 	height: auto;
 	width: 100%;
+
 }
 
 /*.static{
