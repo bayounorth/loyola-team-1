@@ -566,6 +566,14 @@ input.formLabel:not([type]):focus:not([readonly])+label, input.formLabel[type=te
 }
 
 
+.cPadding{
+	padding: 100px;
+}
+
+.cPaddingFAQ{
+	padding: 10px 100px 100px 100px;
+}
+
 
 /* TYPER BLINKER */
 .typer__cursor--blink {
