@@ -2,7 +2,6 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 
 	$routeProvider
 
-		// home page
 		.when('/', {
 			templateUrl: 'views/home.html',
 			controller: 'MainController'
@@ -17,6 +16,12 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			templateUrl: 'views/applied.html',
 			controller: 'AppliedController'	
 		})
+
+		.when('/profiles', {
+			templateUrl: 'views/profiles.html',
+			controller: 'ProfileController'
+
+		});
 
 
 		.when('/footer', {
@@ -34,12 +39,6 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'ParallaxController'
 
 		})
-		
-		.when('/profiles', {
-			templateUrl: 'views/profiles.html',
-			controller: 'ProfileController'
-
-		});
 		
 
 	$locationProvider.html5Mode(true);
