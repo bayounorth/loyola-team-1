@@ -11,8 +11,6 @@ body {
     src: url(../fonts/Faith_And_Glory_One.otf);
 }
 
-
-
 /* CONTAINERS + PARALLAX CONTAINERS */
 
 .container{
@@ -339,8 +337,8 @@ footer a img.loynoLogo {
 	background: rgba(255, 255, 255, 0.0);
 	border-bottom: none;
 }
+
 .navbar.navbar-default {
-   
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -350,19 +348,15 @@ footer a img.loynoLogo {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-
 }
-
 
 .navbar.navbar-default .navbar-collapse li{
 	float: right;
-
-	}
+}
 
 .navbar.navbar-default .navbar-collapse ul{
 	float: right;
-
-	}
+}
 
 /* MEDIA QUERIES */
 
@@ -488,7 +482,3 @@ footer a img.loynoLogo {
 		font-size: 35px;
 	}
 }
-
-
-
-
