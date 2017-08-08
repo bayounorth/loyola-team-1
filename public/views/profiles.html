@@ -1,14 +1,23 @@
 <div class="container cPadding">
 	<h2>PROFILES</h2>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4 col-xs-12" ng-repeat="x in stories">
-				<div><img src="{{x.picture}}" alt="Mountain View" style="width:304px;height:228px;"></div>
-				<div>{{x.name}}</div>
-				<div>{{x.description}}</div>
-
+	<div class="row">
+		<div class="col-xs-12 col-sm-4" ng-repeat="x in stories">
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+					<img class="activator" src="{{ x.picture }}">
+				</div>
+				<div class="card-content">
+					<span class="card-title activator grey-text text-darken-4">{{ x.name }}<i class="material-icons right">more_vert</i></span>
+		<!--       <p><a href="#">This is a link</a></p> -->
+				</div>
+				<div class="card-reveal">
+					<span class="card-title grey-text text-darken-4">{{x.name}}<i class="material-icons right">close</i></span>
+					<p>{{ x.description }}</p>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+
 
