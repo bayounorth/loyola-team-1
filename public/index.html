@@ -105,20 +105,20 @@
 			<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWfWLGOXGIQTwEXwKIO1zObHG9rhpzZtor1GDPqFJ1AAGjeg/viewform?embedded=true" width="560" height="1050" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
 
 		<!-- START FORM 1 -->
-			<form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScWfWLGOXGIQTwEXwKIO1zObHG9rhpzZtor1GDPqFJ1AAGjeg/formResponse" target="_self" method="POST">
+			<form class="form formSpace" action="https://docs.google.com/forms/d/e/1FAIpQLScWfWLGOXGIQTwEXwKIO1zObHG9rhpzZtor1GDPqFJ1AAGjeg/formResponse" target="_self" method="POST">
 			
 				<div><h5>Subscribe</h5></div>
 				<div>Please provide your name and email to subscribe to emails pertaining to Loyola's Software Development and Coding Program.</div>
 				<div><h6>* Required</h6></div>
 				
 				<div class="input-field">
-						<input type="text" aria-label="Name" name="entry.69480479" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="">
-						<label for="name-sub">Name (first & last) <span aria-hidden="true">*</span></label>
+					<input type="text" aria-label="Name" name="entry.69480479" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="">
+					<label for="name-sub">Name (first & last) <span aria-hidden="true">*</span></label>
 				</div>
 
 				<div class="input-field">
-						<input id="email-sub" type="email" aria-label="Email Address" name="entry.1470345420" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
-						<label for="email-sub">Email Address <span aria-hidden="true">*</span></label>
+					<input id="email-sub" type="email" aria-label="Email Address" name="entry.1470345420" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+					<label for="email-sub">Email Address <span aria-hidden="true">*</span></label>
 				</div>
 				
 				<div>
@@ -130,22 +130,21 @@
 					<p><input type="radio" class="with-gap" name="entry.724160149" value="A friend" id="radio3">
 						<label for="radio3">A friend</label></p>
 					<p><input type="radio" class="with-gap inline" name="entry.724160149" value="Other" id="radio4">
-							<label for="radio4">Other:
-									<input class="other" id="radio4" type="text" name="entry.724160149" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
-							</label>
+						<label for="radio4">Other:
+							<input class="other" id="radio4" type="text" name="entry.724160149" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+						</label>
 					</p>
 					<br>
-			  </div>
+			  	</div>
 				
 				<div class="input-field">
 					<input type="text" tabindex="0" aria-label="Why are you interested in the program?" name="entry.1132813127" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
 					<label for="interest-sub">Why are you interested in the program?</label>
-					</div>
+				</div>
 			
 				<input class="btn btn-space" type="submit" value="Send" data-target="_self"
 			onload="if(submitted)  {window.location='https://docs.google.com/forms/d/e/1FAIpQLScWfWLGOXGIQTwEXwKIO1zObHG9rhpzZtor1GDPqFJ1AAGjeg/formResponse/';}">
 			</form>
-		 
 		</div>
 		<!--  form2 -->
 		<div ng-show="menuView == 3" id=menuView3>
@@ -153,11 +152,64 @@
 			<!-- insert if here -->
 			<div ng-show="applicationAllow == true">				
 				<li><a class="subheader">Apply</a></li>
-				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf45qT4JFUd81cvDtUmRxxZkYAYiYoalrHpBYNGtD_OZkGdoQ/viewform?embedded=true" width="560" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+				<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf45qT4JFUd81cvDtUmRxxZkYAYiYoalrHpBYNGtD_OZkGdoQ/viewform?embedded=true" width="560" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+
+				<form class="form formSpace" action="https://docs.google.com/forms/d/e/1FAIpQLSf45qT4JFUd81cvDtUmRxxZkYAYiYoalrHpBYNGtD_OZkGdoQ/formResponse" target="_self" method="POST">
+					<div><h5>Loyola Software Development & Coding Application</h5></div>
+					<div>Please fill out this form to apply for Loyola University Certificate in Software Development & Coding Program (Fall Session)</div>
+					<div><h6>* Required</h6></div>
+					
+					<div class="input-field">
+						<input id="name-apply" type="text" aria-label="Name" name="entry.1994272669" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="">
+						<label for="name-apply">Name (first & last)<span aria-hidden="true">*</span></label>
+					</div>
+
+					<div class="input-field">
+						<input id="email-apply" type="email" aria-label="Email Address" name="entry.186668097" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+						<label for="email-apply">Email Address<span aria-hidden="true">*</span></label>
+					</div>
+
+					<div class="input-field">
+						<input id="phone-apply" type="tel" aria-label="Phone Number" name="entry.1148668242" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+						<label for="phone-apply">Phone Number<span aria-hidden="true">*</span></label>
+					</div>
+
+					<div>
+						<label class="input-field"><h6>How did you learn about this program?</h6></label>
+						<p><input type="radio" class="with-gap" name="entry.550469530" value="Loyola's website" id="radio5">
+							<label for="radio5">Loyola's website</label></p>
+						<p><input type="radio" class="with-gap" name="entry.550469530" value="Email" id="radio6">
+							<label for="radio6">Email</label></p>
+						<p><input type="radio" class="with-gap" name="entry.550469530" value="A friend" id="radio7">
+							<label for="radio7">A friend</label></p>
+						<p><input type="radio" class="with-gap inline" name="entry.550469530" value="Other" id="radio8">
+							<label for="radio8">Other:
+								<input class="other" id="radio8" type="text" name="entry.550469530" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+							</label>
+						</p>
+						<br>
+			  		</div>
+
+				  	<div class="input-field">
+						<input id="interest-apply" type="text" aria-label="Interest" name="entry.2106811016" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+						<label for="interest-apply">Why are you interested in this program?</label>
+					</div>
+
+					<div class="input-field">
+						<input id="tech-interest" type="text" aria-label="Tech Interest" name="entry.1502114028" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+						<label for="tech-interest">How did you get into technology and/or coding?</label>
+					</div>
+
+					<input class="btn btn-space" type="submit" value="Send" data-target="_self"
+			onload="if(submitted)  {window.location='https://docs.google.com/forms/d/e/1FAIpQLSf45qT4JFUd81cvDtUmRxxZkYAYiYoalrHpBYNGtD_OZkGdoQ/formResponse';}">
+
+				</form>
+
+
 			</div>
 
 			<div ng-show="applicationAllow == false">
-				<p>Sorry, there are no courses available right now <br> please subscribe to our news letter so we can let you know when there is a new course available</p>
+				<p>Sorry, there are no courses available right now <br> Please subscribe to our mailing list so we can contact you when there is a new course available. Thank you.</p>
 			</div>
 		 
 		</div>
@@ -214,6 +266,15 @@
       	draggable: true, // Choose whether you can drag to open on touch screens,
 	});
 
+	$('.datepicker').pickadate({
+	    selectMonths: true, // Creates a dropdown to control month
+	    selectYears: 15, // Creates a dropdown of 15 years to control year,
+	    today: 'Today',
+	    clear: 'Clear',
+	    close: 'Ok',
+	    closeOnSelect: false // Close upon selecting a date,
+  });
+      
 
 </script>
 
