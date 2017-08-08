@@ -72,8 +72,23 @@ body {
 }
 
 
-
 /* HEADING */
+
+.top-nav {
+		background-color: #620003;
+		color: #fff;
+		width: 100%;
+		padding: 54px 0;
+		float: left;
+		display: block;
+		height: 120px !important;
+}
+
+.headerLogo img{
+	width: 600px;
+	margin-top:-60px;
+}
+
 
 .main-heading{
 	font-size: 30px;
@@ -83,10 +98,7 @@ body {
 	font-size: 25px;
 }
 
-.brand-logo img{
-	width: 700px;
-	margin-top:-10px;
-}
+
 
 .links{
 	color: #FFD700;
@@ -138,15 +150,6 @@ body {
 }
 
 
-/* TOP NAV */
-.top-nav {
-		background-color: #620003;
-		color: #fff;
-		width: 100%;
-		padding: 54px 0;
-		float: left;
-		display: block;
-}
 
 
 /* FOOTER */
