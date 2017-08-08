@@ -91,8 +91,6 @@
 				<li><div class="divider"></div></li>
 			<li><a href="/applied">Applied Students</a></li>
 				<li><div class="divider"></div></li>
-			<li><a href="">Tech stories</a></li>
-				<li><div class="divider"></div></li>
 			<li><a href="/profiles">Profiles</a></li>
 				<li><div class="divider"></div></li>
 			<li><a href="http://www.loyno.edu/" target="blank_">Back to Loyola</a></li>
@@ -115,12 +113,12 @@
 				<div><h6>* Required</h6></div>
 				
 				<div class="input-field">
-					<input type="text" aria-label="Name" name="entry.69480479" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
+					<input ng-model="newSubscription.name" type="text" aria-label="Name" name="entry.69480479" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
 					<label for="name-sub">Name (first & last) <span aria-hidden="true">*</span></label>
 				</div>
 
 				<div class="input-field">
-					<input id="email-sub" type="email" aria-label="Email Address" name="entry.1470345420" value="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
+					<input ng-model="newSubscription.email" id="email-sub" type="email" aria-label="Email Address" name="entry.1470345420" value="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
 					<label for="email-sub">Email Address <span aria-hidden="true">*</span></label>
 				</div>
 				
@@ -141,11 +139,11 @@
 			  	</div>
 				
 				<div class="input-field">
-					<input type="text" tabindex="0" aria-label="Why are you interested in the program?" name="entry.1132813127" value="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
+					<input ng-model="newSubscription.whyInterest" type="text" tabindex="0" aria-label="Why are you interested in the program?" name="entry.1132813127" value="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
 					<label for="interest-sub">Why are you interested in the program?</label>
 				</div>
 			
-				<input class="btn btn-space btnStyle" type="submit" value="Send" data-target="_self"
+				<input ng-click="postSubscription(newSubscription)" class="btn btn-space btnStyle" type="submit" value="Send" data-target="_self"
 			onload="if(submitted)  {window.location='https://docs.google.com/forms/d/e/1FAIpQLScWfWLGOXGIQTwEXwKIO1zObHG9rhpzZtor1GDPqFJ1AAGjeg/formResponse/';}">
 			</form>
 		</div>
@@ -165,17 +163,17 @@
 					<div><h6>* Required</h6></div>
 					
 					<div class="input-field">
-						<input id="name-apply" type="text" aria-label="Name" name="entry.1994272669" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
+						<input ng-model="newApplication.name" id="name-apply" type="text" aria-label="Name" name="entry.1994272669" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
 						<label for="name-apply">Name (first & last)<span aria-hidden="true">*</span></label>
 					</div>
 
 					<div class="input-field">
-						<input id="email-apply" type="email" aria-label="Email Address" name="entry.186668097" value="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
+						<input ng-model="newApplication.email" id="email-apply" type="email" aria-label="Email Address" name="entry.186668097" value="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
 						<label for="email-apply">Email Address<span aria-hidden="true">*</span></label>
 					</div>
 
 					<div class="input-field">
-						<input id="phone-apply" type="tel" aria-label="Phone Number" name="entry.1148668242" value="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
+						<input ng-model="newApplication.phone" id="phone-apply" type="tel" aria-label="Phone Number" name="entry.1148668242" value="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
 						<label for="phone-apply">Phone Number<span aria-hidden="true">*</span></label>
 					</div>
 
@@ -196,7 +194,7 @@
 			  		</div>
 
 				  	<div class="input-field">
-						<input id="interest-apply" type="text" aria-label="Interest" name="entry.2106811016" value="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
+						<input ng-model="newApplication.whyInterest" id="interest-apply" type="text" aria-label="Interest" name="entry.2106811016" value="" dir="auto" data-initial-dir="auto" data-initial-value="" class="formLabel">
 						<label for="interest-apply">Why are you interested in this program?</label>
 					</div>
 
@@ -205,7 +203,7 @@
 						<label for="tech-interest">How did you get into technology and/or coding?</label>
 					</div>
 
-					<input class="btn btn-space btnStyle" type="submit" value="Send" data-target="_self"
+					<input ng-click="postApplication(newApplication)" class="btn btn-space btnStyle" type="submit" value="Send" data-target="_self"
 			onload="if(submitted)  {window.location='https://docs.google.com/forms/d/e/1FAIpQLSf45qT4JFUd81cvDtUmRxxZkYAYiYoalrHpBYNGtD_OZkGdoQ/formResponse';}">
 
 				</form>

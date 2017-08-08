@@ -32,6 +32,36 @@ angular.module('MainCtrl', ['typer']).controller('MainController', function($sco
 	        console.log($scope.applicationAllow );
 	    });
 
+
+
+	    $scope.postSubscription = function(data){
+
+	    	$http.post("https://gentle-shore-39524.herokuapp.com/new-subscription", data)
+			    .then(function(response) {
+			        
+			        console.log(response );
+			    });
+
+	    }
+
+
+	    $scope.postApplication = function(data){
+
+	    	$http.post("https://gentle-shore-39524.herokuapp.com/new-application", data)
+			    .then(function(response) {
+			        
+			        console.log(response );
+			    });
+
+	    }
+
+
+
+
+
+
+
+
 // PARALLAX MATERIALS 
 
 	$scope.headerTitle = "<boot up your career>"
